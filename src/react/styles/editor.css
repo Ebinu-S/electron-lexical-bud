@@ -1,0 +1,27 @@
+.editorWrapper {
+  position: relative;
+  height: 100dvh;
+  overflow: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.contentEditable {
+  width: 70vw;
+  height: 10rem;
+  border: 2px solid #f3f3f3;
+  padding: 0 8px;
+  background-color: #383838;
+  margin: 0.5rem 0;
+  overflow: auto;
+}
+
+.placeholder {
+  position: absolute;
+  top: 16px;
+  left: 8px;
+}
+
+p {
+  color: #36a30b;
+}
